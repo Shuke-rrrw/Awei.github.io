@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://shuke-rrrw.github.io/Awei.github.io/
 date_format: "ordinal"
 title: 阿伟的工作日志
 subtitle: "阿伟的工作日志
@@ -28,7 +28,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: false
-        start_date: 2020-05-03
+        start_date: 2025-03-17
     # My Popular Repositories
     side_bar_repo:
         enabled: true
