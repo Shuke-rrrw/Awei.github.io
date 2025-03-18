@@ -67,20 +67,20 @@ email: shuke5641@gmail.com
 # ---------------- #
 #    Navigation    #
 # ---------------- #
-navs:
-  -
-    href: /
-    label: 首页
+# navs:
+#   -
+#     href: /
+#     label: 首页
 
-  -
-    url: http://vbase.hitsz.edu.cn/
-    label: 实验室
-  -
-    url: https://git-vbase.hitsz.edu.cn/users/sign_in
-    label: 项目
-  -
-    url: https://cloud-vbase.hitsz.edu.cn/login?direct=1&user=ranwei
-    label: 云盘
+#   -
+#     url: http://vbase.hitsz.edu.cn/
+#     label: 实验室
+#   -
+#     url: https://git-vbase.hitsz.edu.cn/users/sign_in
+#     label: 项目
+#   -
+#     url: https://cloud-vbase.hitsz.edu.cn/login?direct=1&user=ranwei
+#     label: 云盘
   
 #   -
 #     href: /categories/
