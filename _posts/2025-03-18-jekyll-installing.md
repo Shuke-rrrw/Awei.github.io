@@ -39,8 +39,6 @@ bundle install
 可以看到正常安装。
 ## 参考
 
-- [https://blog.csdn.net/sdy691/article/details/137226717][1]
-- [https://askubuntu.com/questions/956006/pregenerating-context-markiv-format-this-may-take-some-time-takes-forever][2]
+- [https://blog.csdn.net/weixin_42215775/article/details/102951401][1]
 
-[1]: https://blog.csdn.net/sdy691/article/details/137226717
-[2]: https://askubuntu.com/questions/956006/pregenerating-context-markiv-format-this-may-take-some-time-takes-forever
+[1]: https://blog.csdn.net/weixin_42215775/article/details/102951401
