@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Latex｜解决bundle install时进度卡住的问题
+title: Bundle｜解决bundle install时进度卡住的问题
 categories: [bundle]
 description: bundle install时要等很久或者卡住不动
 keywords: bundle,ubuntu
