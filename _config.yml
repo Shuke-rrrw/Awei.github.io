@@ -73,13 +73,13 @@ navs:
     label: 首页
 
   -
-    href: http://vbase.hitsz.edu.cn/
+    url: http://vbase.hitsz.edu.cn/
     label: 实验室
   -
-    href: https://git-vbase.hitsz.edu.cn/users/sign_in
+    url: https://git-vbase.hitsz.edu.cn/users/sign_in
     label: 项目
   -
-    href: https://cloud-vbase.hitsz.edu.cn/login?direct=1&user=ranwei
+    url: https://cloud-vbase.hitsz.edu.cn/login?direct=1&user=ranwei
     label: 云盘
   
 #   -
