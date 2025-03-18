@@ -12,21 +12,27 @@ mindmap: false
 mindmap2: false
 ---
 
-遇到问题描述
+## 遇到问题描述
 
 使用下面的命令安装TexLive
 ```objc
 sudo apt-get install texlive-full
 ```
 
-进度卡在Pregenerating ConTeXt MarkIV format. This may take some time...
+进度卡在
+```objc
+Pregenerating ConTeXt MarkIV format. This may take some time...
+```
+
 开始我以为确实需要时间就静等了一会儿，结果好几小时卡在这个位置。
 
-故障原因
+## 故障原因
+
 貌似是缺乏context依赖，而context现在已经无法直接用这种方式安装
 
 
-解决方案
+## 解决方案
+
 连续按压Enter键，然后再静等几分钟就可以了。
 
 ## 参考
