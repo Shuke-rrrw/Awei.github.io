@@ -67,10 +67,10 @@ email: shuke5641@gmail.com
 # ---------------- #
 #    Navigation    #
 # ---------------- #
-# navs:
-#   -
-#     href: /
-#     label: 首页
+navs:
+  -
+    href: /
+    label: 首页
 
 #   -
 #     url: http://vbase.hitsz.edu.cn/
@@ -82,9 +82,9 @@ email: shuke5641@gmail.com
 #     url: https://cloud-vbase.hitsz.edu.cn/login?direct=1&user=ranwei
 #     label: 云盘
   
-#   -
-#     href: /categories/
-#     label: 分类
+  -
+    href: /categories/
+    label: 分类
 
 #   -
 #     href: /archives/
