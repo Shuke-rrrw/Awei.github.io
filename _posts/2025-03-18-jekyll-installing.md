@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bundle｜解决bundle install时进度卡住的问题
-categories: [笔记]
+categories: [笔记,bundle]
 description: bundle install时要等很久或者卡住不动
 keywords: bundle,ubuntu
 mermaid: false
