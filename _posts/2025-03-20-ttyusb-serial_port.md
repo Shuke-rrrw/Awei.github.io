@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 串口通信｜解决必须获取root权限才能进行串口通信的问题
-categories: [笔记]
+categories: [笔记,串口]
 description: 必须获取root权限才能使用串口通信，否则运行ros2 run hd_servo hd_servo命令时机械爪无响应
 keywords: 串口
 mermaid: false
