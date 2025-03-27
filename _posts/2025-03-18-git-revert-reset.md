@@ -1,7 +1,7 @@
 ---
 layout: post
 title: git｜回退到git某一历史版本的操作
-categories: [git]
+categories: [笔记]
 description: 回退到历史版本
 keywords: bundle,ubuntu
 mermaid: false
