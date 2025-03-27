@@ -1,8 +1,8 @@
 ---
 layout: post
-title: dpkg｜解决使用dpkg安装软件因为缺少依赖导致失败的问题
+title: dpkg｜解决因为缺少依赖导致使用dpkg安装软件失败的问题
 categories: [笔记,dpkg]
-description: 解决使用dpkg安装软件因为缺少依赖导致失败的问题
+description: 解决因为缺少依赖导致使用dpkg安装软件失败的问题
 keywords: dpkg，软件安装
 mermaid: false
 sequence: false
