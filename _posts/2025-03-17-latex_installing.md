@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Latex｜解决ubuntu下安装TexLive时进度卡住的问题
-categories: [Latex]
+categories: [笔记]
 description: apt-get安装texlive遇到bug卡在Pregenerating ConTeXt MarkIV format. This may take some time...
 keywords: Latex,ubuntu
 mermaid: false
