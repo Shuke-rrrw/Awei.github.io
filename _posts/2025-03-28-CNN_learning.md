@@ -35,8 +35,11 @@ df = pd.read_csv("data.csv")
 
 - **输出效果**：
   | Name  | Age | City      |
+
   |-------|-----|-----------|
+
   | Alice | 30  | New York  |
+
   | Bob   | 25  | London    |
 
 
@@ -55,9 +58,13 @@ df = pd.read_csv("data.csv", header=None)
   ```
 - **输出效果**：
   | 0     | 1   | 2         |
+
   |-------|-----|-----------|
+
   | Name  | Age | City      |
+
   | Alice | 30  | New York  |
+  
   | Bob   | 25  | London    |
 
 ---
