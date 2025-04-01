@@ -1,4 +1,4 @@
----
+#---
 layout: post
 title: git｜回退到git某一历史版本的操作
 categories: [笔记,git]
@@ -12,11 +12,11 @@ mindmap: false
 mindmap2: false
 ---
 
-## 遇到问题描述
+### 遇到问题描述
 
 实现多人合作程序开发的过程中，我们有时会出现错误提交的情况，此时我们希望能撤销提交操作，让程序回到提交前的样子，这里总结了两种解决方法：reset、revert。
 
-## 解决方案
+### 解决方案
 
 1.reset 的使用方法（会覆盖，不太建议）
 ![](/images/posts/git/git_reset.png)
@@ -48,7 +48,7 @@ git revert -n （目标版本号）
 ```objc
 git push origin branch
 ```
-## 参考
+### 参考
 
 - [https://www.cnblogs.com/fuqian/p/17187457.html][1]
 

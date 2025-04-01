@@ -1,4 +1,4 @@
----
+#---
 layout: post
 title: dpkg｜解决因为缺少依赖导致使用dpkg安装软件失败的问题
 categories: [笔记,dpkg]
@@ -12,7 +12,7 @@ mindmap: false
 mindmap2: false
 ---
 
-## 遇到问题描述
+### 遇到问题描述
 
 在运行命令：
 ```sh
@@ -26,12 +26,12 @@ clash-verge depends on libwebkit2gtk-4.1-0; however:
 ```
 安装过程被中断，包状态标记为“未配置”（dependency problems - leaving unconfigured）
 
-## 故障原因
+### 故障原因
 缺少依赖：libwebkit2gtk-4.1-0
 
-## 解决方案
+### 解决方案
 
-### 方法一.自动修复依赖（推荐）
+#### 方法一.自动修复依赖（推荐）
 1、​修复依赖关系：
 ```sh
 sudo apt install -f
@@ -42,7 +42,7 @@ sudo apt install -f
 sudo dpkg -i Clash.Verge_2.2.2_amd64.deb
 ```
 
-### 方法二.直接通过 apt 安装（更简单）
+#### 方法二.直接通过 apt 安装（更简单）
 
 
 ```sh
@@ -50,13 +50,13 @@ sudo apt install ./Clash.Verge_2.2.2_amd64.deb
 ```
 apt 会自动解析依赖并安装所需包，无需手动干预。
 
-### 方法三：手动安装依赖（备用）
+#### 方法三：手动安装依赖（备用）
 ```sh
 sudo apt update
 sudo apt install libwebkit2gtk-4.1-0
 sudo dpkg -i Clash.Verge_2.2.2_amd64.deb
 ```
-### 原理
+#### 原理
 
 ​**dpkg 的局限性**：
 
@@ -69,6 +69,6 @@ apt 是高级包管理工具，能自动从软件源下载并安装依赖包。
 使用 apt install -f 可修复因依赖问题导致的安装中断。
 直接通过 apt install ./package.deb 安装时，apt 会同时处理本地包和远程依赖。
 
-## 参考
+### 参考
 
 

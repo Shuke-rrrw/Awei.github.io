@@ -1,4 +1,4 @@
----
+#---
 layout: post
 title: CNN｜CNN学习笔记-pd.read_csv（）
 description: CNN学习笔记-pd.read_csv（）
@@ -12,16 +12,16 @@ mindmap: false
 mindmap2: false
 ---
 
-# `pd.read_csv(header=None)` 参数详解
+## `pd.read_csv(header=None)` 参数详解
 
-## 功能说明
+### 功能说明
 `header=None` 是 Pandas 中 `pd.read_csv()` 方法的关键参数，用于明确**禁止将 CSV 文件的任何行解析为列名（表头）**，所有行均视为数据行。
 
 ---
 
-## 默认行为对比
+### 默认行为对比
 
-### 1. 默认情况 (`header=0`)
+#### 1. 默认情况 (`header=0`)
 ```python
 df = pd.read_csv("data.csv")
 ```
@@ -45,7 +45,7 @@ df = pd.read_csv("data.csv")
   | Bob   | 25  | London    |
 
 
-### 2. 设置 `header=None`
+#### 2. 设置 `header=None`
 ```python
 df = pd.read_csv("data.csv", header=None)
 ```
@@ -72,9 +72,9 @@ df = pd.read_csv("data.csv", header=None)
 
 ---
 
-## 核心特性
+### 核心特性
 
-### 1. 列名处理
+#### 1. 列名处理
 
 - 自动生成数字列名 `[0, 1, 2, ...]`
 
@@ -83,30 +83,30 @@ df = pd.read_csv("data.csv", header=None)
   df.columns = ["姓名", "年龄", "城市"]
   ```
 
-### 2. 数据包含范围
+#### 2. 数据包含范围
 
 - 读取**所有行**作为数据
 
 - 适用于没有表头的原始数据文件
 
 ---
+#
+### 典型应用场景
 
-## 典型应用场景
-
-### 1. 无表头文件
+#### 1. 无表头文件
 ```csv
 Alice,30,New York
 Bob,25,London
 Carol,28,Paris
 ```
 
-### 2. 自定义列名
+#### 2. 自定义列名
 ```python
 df = pd.read_csv("raw_data.csv", header=None)
 df.columns = ["User", "Score", "Location"]
 ```
 
-### 3. 跳过无效标题
+#### 3. 跳过无效标题
 ```python
 # 文件前2行是注释
 df = pd.read_csv("data_with_junk.csv", 
@@ -116,9 +116,9 @@ df = pd.read_csv("data_with_junk.csv",
 
 ---
 
-## 注意事项
+### 注意事项
 
-### 1. 表头误识别问题
+#### 1. 表头误识别问题
 
 - 当文件实际包含表头时，若设置 `header=None`，**原表头行会被当作数据行**
 
@@ -128,7 +128,7 @@ df = pd.read_csv("data_with_junk.csv",
   df = pd.read_csv("data.csv", skiprows=1)  # 保留列名自动生成
   ```
 
-### 2. 性能影响
+#### 2. 性能影响
 - 对大型文件（GB级）建议显式指定列名：
 
   ```python
@@ -139,7 +139,7 @@ df = pd.read_csv("data_with_junk.csv",
 
 ---
 
-## 完整参数模板
+### 完整参数模板
 ```python
 pd.read_csv(
     filepath_or_buffer="data.csv",
@@ -151,5 +151,5 @@ pd.read_csv(
 )
 ```
 
-## 参考
+### 参考
 
