@@ -12,28 +12,6 @@ mindmap: false
 mindmap2: false
 ---
 
-# FabricUnfolding（dynamixel分支同时支持飞特和dynamixel舵机，使用时可直接更换舵机，注意修改串口号）
-
-# 教程
-FabricUnfolding为周彦伶研究生毕业设计项目，本人在其工作基础上继续改进工作。
-
-## 项目内容
-使用kuka机械臂、二指六自由度机械手、Robotiq夹爪和~~uskin触觉传感器~~完成织物展开任务
-
-## 环境
-Ubuntu22.04+ros2 humble
-
-## 功能包目录
-cloth：寻找织物角点
-
-iiwa_move：分段控制机械臂运动
-
-iiwa_robotiq_user：控制机械臂和机械手的程序，旧版本 无用
-
-servo_test：控制二指六自由度自制机械手
-
-uskin_fri2：uskin 4x4 4x6驱动功能包
-
 ## 实验步骤
 
 ### 1、运行iiwa机械臂真机：
