@@ -1,4 +1,4 @@
-#---
+---
 layout: post
 title: Latex｜解决ubuntu下安装TexLive时进度卡住的问题
 categories: [笔记,latex]

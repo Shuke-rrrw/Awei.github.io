@@ -1,4 +1,4 @@
-#---
+---
 layout: post
 title: 串口通信｜解决必须获取root权限才能进行串口通信的问题
 categories: [笔记,串口]

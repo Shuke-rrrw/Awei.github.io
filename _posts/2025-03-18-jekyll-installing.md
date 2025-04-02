@@ -1,4 +1,4 @@
-#---
+---
 layout: post
 title: Bundle｜解决bundle install时进度卡住的问题
 categories: [笔记,bundle]

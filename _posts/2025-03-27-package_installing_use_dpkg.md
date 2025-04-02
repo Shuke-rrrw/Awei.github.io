@@ -1,4 +1,4 @@
-#---
+---
 layout: post
 title: dpkg｜解决因为缺少依赖导致使用dpkg安装软件失败的问题
 categories: [笔记,dpkg]
