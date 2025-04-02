@@ -15,7 +15,7 @@ mindmap2: false
 ### 遇到问题描述
 
 使用下面的命令安装TexLive
-```objc
+```
 sudo apt-get install texlive-full
 ```
 
