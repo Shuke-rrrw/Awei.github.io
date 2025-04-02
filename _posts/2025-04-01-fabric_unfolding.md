@@ -2,7 +2,7 @@
 layout: post
 title: 实验｜布料展开实验步骤记录
 description: 记录一下实验步骤
-categories: [笔记,CNN]
+categories: [笔记]
 keywords: 笔记,布料展开
 mermaid: false
 sequence: false
