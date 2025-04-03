@@ -49,7 +49,11 @@ ros2 run find_cloth_corner find_corner
 ros2 run servo_test left_gripper_node
 
 ```
+指尖差速器：
 
+```
+ros2 run servo_test left_gripper_sts_node
+```
 robotiq夹爪：
 ```
 ros2 run robotiq_gripper_client robotiq_control
