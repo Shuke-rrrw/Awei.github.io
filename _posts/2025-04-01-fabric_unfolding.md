@@ -76,27 +76,7 @@ ros2 run iiwa_move left_arm_pub
 2）机械臂上升到预定位置后，关闭机械臂的所有节点，切换左臂到手动模式，然后调高左臂的位置（这一步是为了方便右臂夹到布料）
 
 3）运行右臂：
-```
-ros2 launch iiwa_bringup iiwa_bringup.launch.py side:=right
-```
 
-新开终端，运行：
-```
-ros2 launch iiwa_moveit_config iiwa_moveit.launch.py
-```
-在rviz中将右臂位置调整到'right_gripper_cloth3'（第一步已经调好，但是启动时机械臂会动一下，也可以不用调）。
-
-新开一个终端，切换控制器：
-```
-cd ~/ws_iiwa/src/iiwafri2
-
-. switch_forward_controllers.bash
-```
-新开终端启动MoveIt-Servo：
-```
-ros2 launch iiwa_moveit_config iiwa_servo.launch.py
-```
-启动右臂节点：
 ```
 ros2 run iiwa_move right_arm_sub
 ```
