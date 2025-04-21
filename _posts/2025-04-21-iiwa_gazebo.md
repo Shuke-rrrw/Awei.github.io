@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iiwa gazebo仿真｜iiwa仿真环境出问题，无法开启Gazebo
+title: iiwa gazebo仿真｜iiwa无法开启Gazebo仿真环境
 categories: [笔记，iiwa]
 description: iiwa仿真环境
 keywords: issue
@@ -13,12 +13,12 @@ mindmap2: false
 ---
 ### 遇到问题描述
 
-运行命令：
+开启iiwa Gazebo仿真环境需要运行命令：
 ```sh
 ros2 launch iiwa_bringup iiwa_bringup.launch.py use_sim:=true
 ```
 
-时会提示错误
+但是会提示错误
 ```sh
 ...
 [ruby $(which ign) gazebo-7] [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
