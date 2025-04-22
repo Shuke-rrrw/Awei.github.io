@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iiwa gazebo仿真｜iiwa无法开启Gazebo仿真环境
+title: iiwa｜iiwa无法开启Gazebo仿真环境
 categories: [笔记，iiwa]
 description: iiwa仿真环境
 keywords: issue

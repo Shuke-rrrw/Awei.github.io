@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iiwa右臂末端旋转半径｜布料展开实验中改变右臂旋转半径的方法记录
+title: iiwa｜布料展开实验中改变右臂旋转半径的方法记录
 categories: [笔记,iiwa]
 description: 布料展开实验中改变右臂旋转半径的方法记录
 keywords: iiwa

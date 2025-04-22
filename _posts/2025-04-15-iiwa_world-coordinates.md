@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iiwa世界坐标｜解决iiwa世界坐标错误的问题
+title: iiwa｜解决iiwa世界坐标错误的问题
 categories: [笔记,iiwa]
 description: 解决iiwa世界坐标错误的问题
 keywords: iiwa,世界坐标
