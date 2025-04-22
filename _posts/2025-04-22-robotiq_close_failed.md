@@ -1,7 +1,7 @@
 ---
 layout: post
 title: robotiq｜解决robotiq夹爪偶发关闭失败的问题
-categories: [笔记，robotiq]
+categories: [笔记,robotiq]
 description: 笔记
 keywords: issue
 mermaid: false
