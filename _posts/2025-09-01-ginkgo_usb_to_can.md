@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ginkgo｜解决ginkgo双通道数据获取异常的问题
-categories: [问题记录]
+categories: [笔记]
 description: 解决ginkgo双通道数据获取异常的问题
 keywords: ginkgo,u_skin,fabricunfolding
 mermaid: false
