@@ -125,6 +125,10 @@ ros2 run iiwa_move new_iiwa_test
 ros2 run iiwa_move iiwa_move_pub
 ```
 根据提示手动操作将布料摊平
+用键盘控制双臂放下布后，关闭new_iiwa_test iiwa_move_pub，然后在终端中运行以下命令放下布料：
+```
+ros2 topic pub /total_finish std_msgs/msg/Bool "{data: true}"
+```
 
 
 
