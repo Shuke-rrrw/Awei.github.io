@@ -97,7 +97,7 @@ ros2 run force_classify layer_control_console
 进入摊布阶段后，新开终端运行：
 
 ```bash
-ros2 run iiwa_move new_iiwa_pub
+ros2 run iiwa_move iiwa_move_pub
 ```
 
 根据终端提示进行摊布操作。
